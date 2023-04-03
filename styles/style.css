@@ -1,0 +1,39 @@
+body{
+	margin: 30px;
+	text-align: center;
+	background-color: rgb(173, 170, 165);
+	
+}
+.title1,.title2,.title3{
+	border:none;
+	font-size: 20px;
+}
+
+.volue1{
+	display:block;
+	width:250px;
+	height : 40px;
+	color: block;
+	padding : 10px;	
+	border: 2px solid black;
+	margin: auto;
+}
+	.volue2{
+	display:block;
+	width:250px;
+	height : 40px;
+	color: block;
+	padding : 10px;
+	border: 2px solid black;
+	margin: auto;
+}
+
+	.total{
+	display:block;
+	width:250px;
+	height : 40px;
+	padding : 10px;
+	border: 2px solid green;
+	color: green;
+	margin: auto;
+}

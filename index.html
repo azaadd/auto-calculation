@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>java script</title>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <br>
+    <p> <strong>CURRENT CALCULATOR</strong><br><br>
+        Current calculator is based on ohms law. V = IR Where V = Voltage I = Current R = Resistance I = V/R</p> <br>
+
+    <div onload="multiply();">
+        <level class="title1">Volages (V):</level>
+        <input id="volue1"type="number" class="volue1" value="" onchange="multiply()"><br>
+        <level class="title2">Resistance (Ohms):</level>
+        <input id="volue2" type="number" class="volue2" value="" onchange="multiply()" ><br>
+        <level class="title3">Current (Amps):</level>
+        <input id="total" class="total" readonly>
+        </input>
+    
+    </div>
+    
+    <script src="jaan.js"></script>
+</body>
+</html>
